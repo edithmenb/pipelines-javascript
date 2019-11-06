@@ -23,5 +23,6 @@ steps:
 - script: |
     npm install --only=prod
     npm install mocha --save-dev
+    npm install -g @angular/cli
     npm run build
   displayName: 'npm install and build'

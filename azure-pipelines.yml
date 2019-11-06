@@ -20,7 +20,7 @@ steps:
   inputs:
     versionSpec: $(node_version)
 
-- script: 
+- script: |
     npm install --only=prod
     npm install mocha --save-dev
     npm run build
